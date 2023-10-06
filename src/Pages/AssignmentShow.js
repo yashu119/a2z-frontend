@@ -71,7 +71,7 @@ function AssignmentShow() {
     formData.append("link", "D"); // add the file to the form data
 
     try {
-      const response = await fetch("http://localhost:3030/api/assignment/response/", {
+      const response = await fetch("https://a2z-solutions-backend.onrender.com/api/assignment/response/", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
